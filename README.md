@@ -111,7 +111,7 @@ This project was developed as part of my Master's thesis and is currently associ
 
 If you are interested in citing this work, collaborating, or have related inquiries, feel free to reach out:
 
-📬 Contact: your.email@domain.com
+📬 Contact: felix.iniemail@yahoo.com  
 
 A proper citation block (BibTeX) will be added once the publication is finalized.
 
