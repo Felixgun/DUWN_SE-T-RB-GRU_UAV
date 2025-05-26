@@ -22,7 +22,8 @@ It supports:
 
 - **DUWN**: Distributed Ultra-Wideband Network  
 - **T-SE**: Transformer with Squeeze-and-Excitation  
-- **RB**: Residual Block  
+- **R**: Residual  
+- **B**: Bidirectional
 - **GRU**: Gated Recurrent Unit  
 - **UAV**: Unmanned Aerial Vehicle
 
