@@ -1,0 +1,384 @@
+Title: 13oct-8ZB
+Accuracy: 0.9658119658119658
+F1 Score: 0.9636505624088259
+Precision: 0.9672003123779774
+Recall: 0.9658119658119658
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       1.00      0.87      0.93        15
+           X       0.00      0.00      0.00         0
+           Z       1.00      0.67      0.80        15
+       eight       1.00      0.93      0.97        15
+        idle       0.96      1.00      0.98       189
+        nine       0.00      0.00      0.00         0
+
+   micro avg       0.97      0.97      0.97       234
+   macro avg       0.57      0.50      0.52       234
+weighted avg       0.97      0.97      0.96       234
+
+
+---
+
+Title: 13oct-AX8
+Accuracy: 0.9614147909967846
+F1 Score: 0.9608228214507057
+Precision: 0.9619040912047343
+Recall: 0.9614147909967846
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       1.00      0.80      0.89        15
+           B       0.00      0.00      0.00         0
+           X       0.92      0.80      0.86        15
+           Z       0.00      0.00      0.00         0
+       eight       0.81      0.87      0.84        15
+        idle       0.97      0.98      0.98       266
+        nine       0.00      0.00      0.00         0
+
+   micro avg       0.96      0.96      0.96       311
+   macro avg       0.53      0.49      0.51       311
+weighted avg       0.96      0.96      0.96       311
+
+
+---
+
+Title: 13oct-mix5
+Accuracy: 0.9681908548707754
+F1 Score: 0.9680855290518874
+Precision: 0.9682415832030195
+Recall: 0.9681908548707754
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.88      0.93      0.90        15
+           B       0.93      0.93      0.93        15
+           X       1.00      0.93      0.97        15
+           Z       0.93      0.87      0.90        15
+       eight       0.87      0.87      0.87        15
+        idle       0.98      0.98      0.98       413
+        nine       0.93      0.87      0.90        15
+
+    accuracy                           0.97       503
+   macro avg       0.93      0.91      0.92       503
+weighted avg       0.97      0.97      0.97       503
+
+
+---
+
+Title: 13oct-XA9
+Accuracy: 0.966183574879227
+F1 Score: 0.970934390105721
+Precision: 0.975965044207456
+Recall: 0.966183574879227
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.94      1.00      0.97        15
+           B       0.00      0.00      0.00         0
+           X       0.93      0.93      0.93        15
+           Z       0.00      0.00      0.00         0
+       eight       0.00      0.00      0.00         0
+        idle       0.99      0.97      0.98       162
+        nine       0.93      0.93      0.93        15
+
+   micro avg       0.97      0.97      0.97       207
+   macro avg       0.54      0.55      0.54       207
+weighted avg       0.98      0.97      0.97       207
+
+
+---
+
+Title: 14sept-7
+Accuracy: 0.9681274900398407
+F1 Score: 0.9686190882624082
+Precision: 0.9698692293101184
+Recall: 0.9681274900398407
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       0.00      0.00      0.00         0
+           X       0.94      0.97      0.95        30
+           Z       0.94      1.00      0.97        15
+       eight       0.82      0.93      0.87        15
+        idle       0.99      0.97      0.98       191
+        nine       0.00      0.00      0.00         0
+
+   micro avg       0.97      0.97      0.97       251
+   macro avg       0.53      0.55      0.54       251
+weighted avg       0.97      0.97      0.97       251
+
+
+---
+
+Title: 29sept-BA9
+Accuracy: 0.9678456591639871
+F1 Score: 0.9688207713733593
+Precision: 0.9715398475674427
+Recall: 0.9678456591639871
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.82      0.93      0.87        15
+           B       0.93      0.93      0.93        15
+           X       0.00      0.00      0.00         0
+           Z       0.00      0.00      0.00         0
+       eight       0.00      0.00      0.00         0
+        idle       0.99      0.97      0.98       266
+        nine       0.79      1.00      0.88        15
+
+   micro avg       0.97      0.97      0.97       311
+   macro avg       0.51      0.55      0.52       311
+weighted avg       0.97      0.97      0.97       311
+
+
+---
+
+Title: 29sept-ZAB
+Accuracy: 0.979381443298969
+F1 Score: 0.9790631318182932
+Precision: 0.9790009325470759
+Recall: 0.979381443298969
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.86      0.80      0.83        15
+           B       1.00      1.00      1.00        15
+           X       0.00      0.00      0.00         0
+           Z       1.00      0.93      0.96        14
+       eight       0.00      0.00      0.00         0
+        idle       0.98      0.99      0.99       247
+        nine       0.00      0.00      0.00         0
+
+   micro avg       0.98      0.98      0.98       291
+   macro avg       0.55      0.53      0.54       291
+weighted avg       0.98      0.98      0.98       291
+
+
+---
+
+Title: 3Nov-mix1
+Accuracy: 0.9798534798534798
+F1 Score: 0.9800968260375988
+Precision: 0.9807087035997832
+Recall: 0.9798534798534798
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       1.00      0.93      0.97        15
+           B       1.00      0.93      0.97        15
+           X       0.93      0.93      0.93        15
+           Z       0.88      0.93      0.90        15
+       eight       1.00      1.00      1.00        15
+        idle       0.99      0.99      0.99       456
+        nine       0.82      0.93      0.87        15
+
+    accuracy                           0.98       546
+   macro avg       0.95      0.95      0.95       546
+weighted avg       0.98      0.98      0.98       546
+
+
+---
+
+Title: 3Nov-mix4
+Accuracy: 0.9348268839103869
+F1 Score: 0.9277440563270196
+Precision: 0.9312411656409859
+Recall: 0.9348268839103869
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.79      0.73      0.76        15
+           B       0.75      0.20      0.32        15
+           X       0.81      0.87      0.84        15
+           Z       1.00      0.93      0.97        15
+       eight       0.83      1.00      0.91        15
+        idle       0.95      0.97      0.96       401
+        nine       0.88      0.93      0.90        15
+
+    accuracy                           0.93       491
+   macro avg       0.86      0.81      0.81       491
+weighted avg       0.93      0.93      0.93       491
+
+
+---
+
+Title: 5Nov-mix1
+Accuracy: 0.9673076923076923
+F1 Score: 0.9679099915835909
+Precision: 0.968904128959276
+Recall: 0.9673076923076923
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.71      0.80      0.75        15
+           B       1.00      1.00      1.00        15
+           X       0.88      0.93      0.90        15
+           Z       0.93      0.93      0.93        15
+       eight       0.94      1.00      0.97        15
+        idle       0.99      0.97      0.98       430
+        nine       0.88      0.93      0.90        15
+
+    accuracy                           0.97       520
+   macro avg       0.90      0.94      0.92       520
+weighted avg       0.97      0.97      0.97       520
+
+
+---
+
+Title: 5Nov-mix5
+Accuracy: 0.9441747572815534
+F1 Score: 0.9419903036360937
+Precision: 0.9487550406933303
+Recall: 0.9441747572815534
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.91      0.67      0.77        15
+           B       1.00      0.87      0.93        15
+           X       0.93      0.93      0.93        15
+           Z       0.71      1.00      0.83        15
+       eight       0.82      0.93      0.87        15
+        idle       0.96      0.98      0.97       322
+        nine       1.00      0.53      0.70        15
+
+    accuracy                           0.94       412
+   macro avg       0.91      0.84      0.86       412
+weighted avg       0.95      0.94      0.94       412
+
+
+---
+
+Title: 6oct-9BB
+Accuracy: 0.9586776859504132
+F1 Score: 0.9590093138093922
+Precision: 0.9595578785828053
+Recall: 0.9586776859504132
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       0.87      0.90      0.89        30
+           X       0.00      0.00      0.00         0
+           Z       0.00      0.00      0.00         0
+       eight       0.00      0.00      0.00         0
+        idle       0.98      0.97      0.97       197
+        nine       0.88      0.93      0.90        15
+
+   micro avg       0.96      0.96      0.96       242
+   macro avg       0.39      0.40      0.39       242
+weighted avg       0.96      0.96      0.96       242
+
+
+---
+
+Title: 6oct-X89
+Accuracy: 0.9733333333333334
+F1 Score: 0.9731361979580485
+Precision: 0.9736416064480267
+Recall: 0.9733333333333334
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       0.00      0.00      0.00         0
+           X       0.93      0.87      0.90        15
+           Z       0.00      0.00      0.00         0
+       eight       0.88      0.93      0.90        15
+        idle       0.98      0.99      0.98       255
+        nine       1.00      0.87      0.93        15
+
+   micro avg       0.97      0.97      0.97       300
+   macro avg       0.54      0.52      0.53       300
+weighted avg       0.97      0.97      0.97       300
+
+
+---
+
+Title: 6oct-XZZ
+Accuracy: 0.9633507853403142
+F1 Score: 0.9640322913572055
+Precision: 0.9662153895482026
+Recall: 0.9633507853403142
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       0.00      0.00      0.00         0
+           X       1.00      0.92      0.96        12
+           Z       0.85      0.97      0.91        30
+       eight       0.00      0.00      0.00         0
+        idle       0.99      0.97      0.98       149
+        nine       0.00      0.00      0.00         0
+
+   micro avg       0.96      0.96      0.96       191
+   macro avg       0.41      0.41      0.41       191
+weighted avg       0.97      0.96      0.96       191
+
+
+---
+
+Title: 7oct-9A9
+Accuracy: 0.9709090909090909
+F1 Score: 0.9711098961180975
+Precision: 0.9714655172413793
+Recall: 0.9709090909090909
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.81      0.87      0.84        15
+           B       0.00      0.00      0.00         0
+           X       0.00      0.00      0.00         0
+           Z       0.00      0.00      0.00         0
+       eight       0.00      0.00      0.00         0
+        idle       0.98      0.98      0.98       230
+        nine       0.97      0.93      0.95        30
+
+   micro avg       0.97      0.97      0.97       275
+   macro avg       0.39      0.40      0.40       275
+weighted avg       0.97      0.97      0.97       275
+
+
+---
+
+Title: 7oct-9B8
+Accuracy: 0.9457364341085271
+F1 Score: 0.951274309260545
+Precision: 0.9735352288414569
+Recall: 0.9457364341085271
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.00      0.00      0.00         0
+           B       1.00      0.40      0.57        15
+           X       0.00      0.00      0.00         0
+           Z       0.00      0.00      0.00         0
+       eight       0.94      1.00      0.97        15
+        idle       0.97      0.99      0.98       215
+        nine       1.00      0.77      0.87        13
+
+   micro avg       0.95      0.95      0.95       258
+   macro avg       0.56      0.45      0.48       258
+weighted avg       0.97      0.95      0.95       258
+
+
+---
+

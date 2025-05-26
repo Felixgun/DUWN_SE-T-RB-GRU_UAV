@@ -1,0 +1,7 @@
+Model Name: transformer-SE-res-bi-gru6
+Learning Rate: 0.0002
+Batch Size: 512
+Training Duration (seconds): 7536.750473976135
+Epochs: 186
+Dynamic Learning Rate: monitor='val_accuracy', factor=0.7, patience=5, min_lr=1e-6
+seq_length: 40

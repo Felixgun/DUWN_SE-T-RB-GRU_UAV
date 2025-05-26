@@ -1,0 +1,25 @@
+Title: overall
+average inference time: 0.05002995410171671 
+Accuracy: 0.9631293280928317
+F1 Score: 0.9629846180536377
+Precision: 0.9633348589011432
+Recall: 0.9631293280928317
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           A       0.86      0.85      0.86       150
+           B       0.95      0.81      0.88       165
+           X       0.93      0.91      0.92       162
+           Z       0.86      0.92      0.89       149
+       eight       0.88      0.95      0.91       150
+        idle       0.98      0.98      0.98      4389
+        nine       0.91      0.88      0.89       178
+
+    accuracy                           0.96      5343
+   macro avg       0.91      0.90      0.90      5343
+weighted avg       0.96      0.96      0.96      5343
+
+
+---
+
