@@ -32,12 +32,12 @@ It supports:
 
 | Folder | Description |
 |--------|-------------|
-| `train_test/` | Scripts for model training and evaluation |
-| `inference_pc/` | Inference code runnable on standard PC |
-| `inference_nx/` | Inference code optimized for Jetson NX |
-| `inference_nx_flight/` | Jetson NX code integrated with UAV flight commands |
-| `data/` | Training and testing datasets |
-| `assets/` | Images: model diagram, hardware setup, flight result |
+| `res-bi-gru-ablation-multisequence.py` | Scripts for model training and evaluation |
+| `inference2.5.py` | Inference code runnable on standard PC |
+| `inference-nocamera3-jetson.py` | Inference code optimized for Jetson NX |
+| `fly_NX3.py` | Jetson NX code integrated with UAV flight commands |
+| `dataset3.zip` | Training datasets |
+| `test1.zip` | Testing datasets |
 
 ---
 
@@ -45,13 +45,57 @@ It supports:
 
 **Requirements:**
 - Python ≥ 3.8
-- PyTorch ≥ 1.11
+- tensorflow = 2.10.1
 - NumPy, OpenCV, etc.
 - Jetson Xavier NX with JetPack SDK (for deployment)
 
-**To install:**
 
-```bash
-git clone https://github.com/your-username/DUWN_T-SE-RB-GRU_UAV.git
-cd DUWN_T-SE-RB-GRU_UAV
-pip install -r requirements.txt
+
+
+## 🧪 Results
+
+![Flight Result](./test14des1-2.png)  
+*Figure 2: UAV flight path based on gesture input*
+
+---
+
+## 🖼️ System Architecture
+
+![System Setup](./Picture1.png)  
+*Figure 3: Distributed UWB Network and UAV control setup*
+
+---
+
+## 📊 Dataset
+
+Both training and testing datasets are included :
+- Collected from multiple UWB anchors and a wearable tag  
+- Includes labeled gesture sequences  
+- Preprocessed for training
+- `inference2.5.py` is used for data collection
+
+---
+
+## 🔬 Model Details
+
+- **Transformer**: Extracts global dependencies from sequential UWB features  
+- **SE blocks**: Recalibrate feature maps based on inter-channel relations  
+- **Residual blocks**: Ensure deeper network training stability  
+- **BiGRU**: Captures bidirectional temporal dynamics
+
+---
+
+## 📚 References & Related Work
+
+- TBA
+
+---
+
+## 👤 Author
+
+**Your Name**  
+- GitHub: [@Felixgun](https://github.com/Felixgun)  
+- Email: felix.iniemail@yahoo.com  
+- LinkedIn: [https://linkedin.com/in/felixg26/](https://linkedin.com/in/felixg26/)
+
+---
