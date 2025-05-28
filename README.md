@@ -1,4 +1,4 @@
-# DUWN_T-SE-RB-GRU_UAV  
+# DUWN_SE-T-RB-GRU_UAV  
 *A Transformer-SE-Residual-BiGRU Model for Gesture Recognition via Distributed UWB Network to Control UAVs*
 
 ![Model Architecture](./Tr-SE-Res-Bi-GRU%20Diagram1.png)  
@@ -8,7 +8,7 @@
 
 ## 📘 Overview
 
-**DUWN_T-SE-RB-GRU_UAV** is a deep learning framework designed to perform **gesture recognition** using signals captured by a **Distributed Ultra-Wideband (UWB) Network**, enabling **real-time UAV control**. The system leverages a hybrid architecture combining **Transformer**, **Squeeze-and-Excitation (SE)** modules, **Residual connections**, and a **Bidirectional GRU (BiGRU)** to enhance temporal and spatial signal understanding.
+**DUWN_SE-T-RB-GRU_UAV** is a deep learning framework designed to perform **gesture recognition** using signals captured by a **Distributed Ultra-Wideband (UWB) Network**, enabling **real-time UAV control**. The system leverages a hybrid architecture combining **Transformer**, **Squeeze-and-Excitation (SE)** modules, **Residual connections**, and a **Bidirectional GRU (BiGRU)** to enhance temporal and spatial signal understanding.
 
 It supports:
 - Model **training and testing**
@@ -21,7 +21,7 @@ It supports:
 ## 🧠 Acronym Breakdown
 
 - **DUWN**: Distributed Ultra-Wideband Network  
-- **T-SE**: Transformer with Squeeze-and-Excitation  
+- **SE-T**: Transformer with Squeeze-and-Excitation Block
 - **R**: Residual  
 - **B**: Bidirectional
 - **GRU**: Gated Recurrent Unit  
