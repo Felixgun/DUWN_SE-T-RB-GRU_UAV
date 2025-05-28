@@ -1,14 +1,14 @@
-# DUWN_SE-T-RB-GRU_UAV  
+# DUWBN_SE-T-RB-GRU_UAV  
 *A Transformer-SE-Residual-BiGRU Model for Gesture Recognition via Distributed UWB Network to Control UAVs*
 
-![Model Architecture](./Tr-SE-Res-Bi-GRU%20Diagram1.png)  
+![Model Architecture](./SE-T-Res-Bi-GRU%20Diagram1.png)  
 *Figure 1: Model Architecture*
 
 ---
 
 ## 📘 Overview
 
-**DUWN_SE-T-RB-GRU_UAV** is a deep learning framework designed to perform **gesture recognition** using signals captured by a **Distributed Ultra-Wideband (UWB) Network**, enabling **real-time UAV control**. The system leverages a hybrid architecture combining  **Squeeze-and-Excitation (SE)** blocks, **Transformer**, **Residual connections**, and a **Bidirectional GRU (BiGRU)** to enhance temporal and spatial signal understanding.
+**DUWBN_SE-T-RB-GRU_UAV** is a deep learning framework designed to perform **gesture recognition** using signals captured by a **Distributed Ultra-Wideband (DUWB) Network**, enabling **real-time UAV control**. The system leverages a hybrid architecture combining  **Squeeze-and-Excitation (SE)** blocks, **Transformer**, **Residual connections**, and a **Bidirectional GRU (BiGRU)** to enhance temporal and spatial signal understanding.
 
 It supports:
 - Model **training and testing**
@@ -20,7 +20,7 @@ It supports:
 
 ## 🧠 Acronym Breakdown
 
-- **DUWN**: Distributed Ultra-Wideband Network  
+- **DUWBN**: Distributed Ultra-Wideband Network  
 - **SE-T**: Transformer with Squeeze-and-Excitation Block
 - **R**: Residual  
 - **B**: Bidirectional
@@ -33,11 +33,11 @@ It supports:
 
 | Folder | Description |
 |--------|-------------|
-| `res-bi-gru-ablation-multisequence.py` | Scripts for model training and evaluation |
-| `inference2.5.py` | Inference code runnable on standard PC |
-| `inference-nocamera3-jetson.py` | Inference code optimized for Jetson NX |
+| `train_and_val.py` | Scripts for model training and evaluation |
+| `inference2-PC.py` | Inference code runnable on standard PC |
+| `inference-jetson.py` | Inference code optimized for Jetson NX |
 | `fly_NX3.py` | Jetson NX code integrated with UAV flight commands |
-| `dataset3.zip` | Training datasets |
+| `dataset.zip` | Training datasets |
 | `test1.zip` | Testing datasets |
 
 ---
@@ -49,6 +49,7 @@ It supports:
 - tensorflow = 2.10.1
 - NumPy, OpenCV, etc.
 - Jetson Xavier NX with JetPack SDK (for deployment)
+- Decawave DWM1001
 
 
 
