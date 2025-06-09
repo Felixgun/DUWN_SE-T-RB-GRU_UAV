@@ -63,7 +63,7 @@ It supports:
 
 ## 🖼️ System Architecture
 
-![System Setup](./System diagram.png)  
+![System Setup](./System_diagram.png)  
 *Figure 3: Distributed UWB Network and UAV control setup*
 
 ---
