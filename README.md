@@ -56,14 +56,14 @@ It supports:
 
 ## 🧪 Results
 
-![Flight Result](./test14des1-2.png)  
+![Flight Result](./flight-path.png)  
 *Figure 2: UAV flight path based on gesture input*
 
 ---
 
 ## 🖼️ System Architecture
 
-![System Setup](./Picture1.png)  
+![System Setup](./System diagram.png)  
 *Figure 3: Distributed UWB Network and UAV control setup*
 
 ---
