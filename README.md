@@ -100,27 +100,4 @@ Both training and testing datasets are included :
 - Email: felix.iniemail@yahoo.com  
 - LinkedIn: [https://linkedin.com/in/felixg26/](https://linkedin.com/in/felixg26/)
 
----
 
-
-
-## 📚 Citation & Academic Use
-
-This project was developed as part of my Master's thesis and is currently associated with a research paper that is **under review**. The repository is shared for academic preview and reference purposes only.
-
-🔒 Until the paper is formally published, please **do not reuse, distribute, or build upon this code or content** without prior permission.
-
-If you are interested in citing this work, collaborating, or have related inquiries, feel free to reach out:
-
-📬 Contact: felix.iniemail@yahoo.com  
-
-A proper citation block (BibTeX) will be added once the publication is finalized.
-
----
-
-## 🗂️ Legal & Licensing Notice
-
-This repository does not yet include a formal open-source license.  
-As such, all rights are reserved by the author unless explicitly stated otherwise.
-
-> ⚠️ You may browse the code and materials, but reuse or redistribution is **not permitted** at this time.
