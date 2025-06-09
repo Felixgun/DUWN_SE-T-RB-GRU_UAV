@@ -314,12 +314,6 @@ scaler = joblib.load(f'{model_folder}/scaler.pkl')
 encoder = joblib.load(f'{model_folder}/encoder.pkl')
 print('pass2')
 
-# def preprocess_data(data):
-#     # Reshape and normalize data
-#     data = data.reshape(1, seq_length, 3)
-#     data = scaler.transform(data[0]).reshape(1, seq_length, 3)
-#     return data
-
 def predict_gesture(window_data):
     global error_count
     error_count=0
