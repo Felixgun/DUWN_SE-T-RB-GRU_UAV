@@ -82,7 +82,7 @@ Both training and testing datasets are included :
 
 - **Transformer**: Extracts global dependencies from sequential UWB features  
 - **SE blocks**: Recalibrate feature maps based on inter-channel relations  
-- **Residual blocks**: Ensure deeper network training stability  
+- **Residual blocks**: Increase the gradient signal to obtain a more effective learning
 - **BiGRU**: Captures bidirectional temporal dynamics
 
 ---
